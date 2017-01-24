@@ -508,6 +508,8 @@ impl Sentry {
 
                 true // keep going to the next frame
             });
+            println!("frames: {:?}", frames);
+            println!("backtrace???: {:?}", backtrace::Backtrace::new());
 
             let e = Event::new("panic",
                                "fatal",

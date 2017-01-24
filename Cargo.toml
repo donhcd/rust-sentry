@@ -13,7 +13,7 @@ Sentry (getsentry.com) client for rust ;)
 
 
 [dependencies]
-backtrace = "0.3"
+backtrace = { git = "https://github.com/alexcrichton/backtrace-rs.git", rev = "aa8891341bd1744e6431be81d0c26a655f88624e" }
 hyper = "0.9"
 time = "0.1"
 chrono = "0.2"
